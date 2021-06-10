@@ -13,7 +13,7 @@ const color_anim = keyframes`
 `;
 
 export const Container = styled.div`
-  background-image: url('/assets/images/background.png');
+  background-image: url('/assets/images/background.jpeg');
   background-size: 100vw;
   height: 100vh;
   width: 100vw;
