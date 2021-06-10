@@ -13,7 +13,10 @@ const color_anim = keyframes`
 `;
 
 export const Container = styled.div`
-  background-image: url('/assets/images/background.jpeg');
+  @media (min-width: 768px) {
+    background-image: url('/assets/images/background.jpeg');
+  }
+
   background-size: 100vw;
   background-repeat: no-repeat;
   height: 100vh;
@@ -43,6 +46,15 @@ export const Container = styled.div`
         line-height: 7.5rem;
         font-family: 'Rubik Mono One', sans-serif;
         font-size: 7.5rem;
+
+        @media (max-width: 768px) {
+          line-height: 5rem;
+          font-size: 5rem;
+        }
+
+        @media (max-width: 590px) {
+          width: auto;
+        }
       }
 
       p {
@@ -51,6 +63,10 @@ export const Container = styled.div`
         margin: 2rem 0;
         font-weight: 400;
         font-size: 2rem;
+
+        @media (max-width: 768px) {
+          font-size: 1.5rem;
+        }
       }
 
       .cta {
@@ -67,6 +83,11 @@ export const Container = styled.div`
         transition: 1s;
         box-shadow: 6px 6px 0 var(--gray-solid);
         transform: skewX(-15deg);
+
+        @media (max-width: 768px) {
+          padding: 1rem 4rem;
+          font-size: 2rem;
+        }
       }
 
       svg {
@@ -92,20 +113,23 @@ export const Container = styled.div`
       .cta:hover  span:nth-child(2) {
         cursor: url("/assets/cursor/pointer.svg"), auto;
         transition: 0.5s;
-        margin-right: 2rem;
+        margin-right: 1rem;
       }
 
         span {
+          margin-left: 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           cursor: url("/assets/cursor/pointer.svg"), auto;
           transform: skewX(15deg) 
         }
 
         span:nth-child(2) {
           cursor: url("/assets/cursor/pointer.svg"), auto;
-          width: 20px;
+          width: 3rem;
           margin-left: 3rem;
           position: relative;
-          top: 12%;
         }
         
       path.one {
