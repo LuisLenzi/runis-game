@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Loading } from '../components/Loading';
-import { Container } from './styles';
+import { Container } from '../components/styles';
 
 export default function Home() {
   const [showLoading, setShowLoading] = useState(true);
