@@ -13,11 +13,12 @@ const color_anim = keyframes`
 `;
 
 export const Container = styled.div`
-  @media (min-width: 768px) {
-    background-image: url('/assets/images/background.jpeg');
+  @media (min-width: 1368px) {
+    background-size: 100vw;
   }
 
-  background-size: 100vw;
+  background-image: url('/assets/images/background.jpeg');
+  background-size: 200vh;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
