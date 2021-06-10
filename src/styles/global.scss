@@ -19,7 +19,7 @@
     background: var(--podcast-option-play-button-gradient);
     border-radius: 1rem;
     &:hover {
-      background: var(--orange-solid);
+      background: var(--blue-solid);
     }
   }
   ::-webkit-scrollbar-track {
@@ -29,23 +29,13 @@
 
 :root {
   //Solid Colors
-  --orange-solid: #ff6400;
+  --blue-solid: #95D6FF;
   --white-solid: #ffffff;
   --black-solid: #000000;
   --gray-solid: #1c1c1c;
+  --green-solid: #70FF35;
   //Gradient Colors
-  --background-gradient: linear-gradient(90.08deg, #622600 -291.94%, #09090c 70.4%);
-  --header-gradient: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.15) 100%);
-  --player-background: linear-gradient(0deg, rgb(184, 81, 13), rgba(255, 100, 0, 1));
-  --podcast-option-play-button-gradient: linear-gradient(143.2deg, #ff6400 -45.68%, rgba(255, 100, 0, 0) 96.25%);
-  --podcast-option-background-gradient: linear-gradient(272.88deg, rgba(16, 16, 16, 0.05) -13.29%, #ff5c00 107.52%);
-  --podcast-image-selected-box-gradient: linear-gradient(
-    144.52deg,
-    rgba(18, 18, 18, 0.8) -0.7%,
-    rgba(0, 0, 0, 0) 125.23%
-  );
-  --pause-and-play-button-gradient: linear-gradient(130.5deg, #000000 -6.74%, rgba(0, 0, 0, 0) 133.18%);
-  --player-mobile-gradient: linear-gradient(180deg, rgba(255, 100, 0, 0) 0%, #ff6400 147.76%);
+  --header-gradient: linear-gradient(180deg, #252525 -10%, rgba(0, 0, 0, 0.35) 25%);
 }
 
 @media (max-width: 1080px) {
@@ -61,7 +51,7 @@
 }
 
 body {
-  background: var(--background-gradient);
+  background: var(--blue-solid);
 }
 
 body,
@@ -78,7 +68,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
   font-family: Poppins, sans-serif;
   color: var(--white-solid);
 }

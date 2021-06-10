@@ -52,7 +52,7 @@ export const Container = styled.div<ContainerProps>`
       border-style: solid;
       opacity: 1;
       border-radius: 50%;
-      border-color: #ff6400;
+      border-color: var(--header-gradient);
       animation: ${loading} .75s cubic-bezier(0, 0.2, 0.8, 1) infinite;
     }
 
