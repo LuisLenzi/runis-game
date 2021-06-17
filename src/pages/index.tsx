@@ -17,7 +17,7 @@ export default function Home() {
         <div>
           <h1>Runis Game</h1>
           <p>Corra o mais rápido que conseguir e tente chegar no ônibus</p>
-          <a className="cta" href="https://games.gdevelop-app.com/game-60ec57e2-0255-4da7-92eb-2db499c8057a/index.html">
+          <a className="cta" href="https://games.gdevelop-app.com/game-4090a620-14c1-4bb1-a1ac-b9727e374b29/index.html">
             <span>Play</span>
             <span>
               <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg">
